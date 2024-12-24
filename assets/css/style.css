@@ -16,7 +16,9 @@
     height: 851px;
     width: 100%;
 }
-
+.pb-6{
+    padding-bottom: 6px;
+}
 .logo {
     padding: 24px 0px 24px 0px;
 }
