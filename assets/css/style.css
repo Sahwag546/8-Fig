@@ -327,6 +327,9 @@
     text-decoration-skip-ink: none;
 
 }
+.max-w-480{
+    max-width: 480px !important;
+}
 
 .pt-70-pb-60 {
     padding-top: 70px;
