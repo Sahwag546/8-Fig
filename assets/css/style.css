@@ -63,7 +63,10 @@
 .max-w-408 {
     max-width: 408px;
 }
-
+.mx-26{
+    margin-left: 26px;
+    margin-right: 26px;
+}
 .btn-1 {
     font-family: Poppins;
     font-size: 16px;
@@ -79,6 +82,9 @@
     transition: all 300ms linear;
     border-radius: 100px;
     cursor: pointer;
+}
+.p-x-y{
+    padding: 3px 9px 3px 9px;
 }
 
 .btn-1:hover {
