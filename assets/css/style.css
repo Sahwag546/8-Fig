@@ -397,6 +397,9 @@
     max-width: 163px;
 }
 
+.color-grey{
+    color: #56565D;
+}
 .gap-36 {
     gap: 36px;
 }
@@ -493,6 +496,12 @@
 
     .lg-d-none {
         display: none;
+    }
+    .accodian-heading{
+font-size: 28px;
+font-weight: 600;
+line-height: 36px;
+text-align: center;
     }
 
     .lg-dis-block {
