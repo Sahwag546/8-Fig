@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&family=Sunflower:wght@300&family=Yantramanav:wght@100;300;400;500;700;900&display=swap");
-
+@font-face {
+    font-family:Abril Display;
+    src: url(/assets/font/Abril_Display_Bold.otf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -255,7 +258,7 @@
 }
 
 .top-left-2 {
-    top: 30%;
+    top: 15%;
     left: -10%;
 }
 
@@ -481,6 +484,9 @@
     .pt-263 {
         padding-top: 50px;
     }
+      .lg-pl-12{
+        padding-left: 12px;
+    }
 
     .lg-d-none {
         display: none;
@@ -543,6 +549,27 @@
     .md-d-none {
         display: none;
     }
+    .section-4-heading{
+font-size: 31.97px;
+font-weight: 600;
+line-height: 43.93px;
+text-align: center;
+
+    }
+
+.size-change-md{
+font-family: Poppins;
+font-size: 12.15px !important;
+font-weight: 400 !important;
+line-height: 19.18px !important;
+text-align: center;
+
+
+    }
+  
+    .size-change-logo{
+        width: 53.38px;
+    }
 
     .main-heading {
         font-size: 50px;
@@ -557,14 +584,14 @@
     }
 
     .md-py-60 {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 0;
+        padding-bottom: 52px;
     }
 }
 
 @media (max-width: 460px) {
     .sm-gap-20 {
-        gap: 10px !important;
+        gap: 20px !important;
     }
 
     .main-heading {
@@ -588,10 +615,10 @@
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 400px) {
     .sm-setup {
         position: relative;
-        right: -20%;
+        right: -46%;
     }
 
     .sm-mt-265 {
@@ -601,7 +628,7 @@
     .top-left {
         top: unset;
         bottom: -10%;
-        left: -5px;
+        left: 25%;
     }
 
     .sm-scale {
@@ -627,5 +654,8 @@
 @media (max-width: 350px) {
     .xs-mt-180 {
         margin-top: 180px;
+    }
+     .sm-gap-20 {
+        gap: 15px !important;
     }
 }
