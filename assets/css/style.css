@@ -428,6 +428,9 @@
 .dis-none {
     display: none;
 }
+.rounded-0{
+    border-radius: unset !important;
+}
 
 @keyframes rotate {
     0% {
@@ -574,7 +577,12 @@
         line-height: 43.93px;
         text-align: center;
     }
-
+.heading-svg{
+font-size: 12px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.08em;
+}
     .md-pb-0 {
         padding-bottom: 0 !important;
     }
