@@ -584,9 +584,13 @@ text-align: center;
     }
 
     .md-py-60 {
-        padding-top: 0;
+        padding-top: 60px;
         padding-bottom: 52px;
     }
+  .md-pt-60-pb-60{
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
 }
 
 @media (max-width: 460px) {
