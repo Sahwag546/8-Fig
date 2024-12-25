@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&family=Sunflower:wght@300&family=Yantramanav:wght@100;300;400;500;700;900&display=swap");
+
 @font-face {
-    font-family:Abril Display;
+    font-family: Abril Display;
     src: url(/assets/font/Abril_Display_Bold.otf);
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -370,7 +372,8 @@
     line-height: 24px;
     text-align: left;
 }
-.pt-60{
+
+.pt-60 {
     padding-top: 60px;
 }
 
@@ -397,9 +400,10 @@
     max-width: 163px;
 }
 
-.color-grey{
-    color: #56565D;
+.color-grey {
+    color: #56565d;
 }
+
 .gap-36 {
     gap: 36px;
 }
@@ -490,18 +494,20 @@
     .pt-263 {
         padding-top: 50px;
     }
-      .lg-pl-12{
+
+    .lg-pl-12 {
         padding-left: 12px;
     }
 
     .lg-d-none {
         display: none;
     }
-    .accodian-heading{
-font-size: 28px;
-font-weight: 600;
-line-height: 36px;
-text-align: center;
+
+    .accodian-heading {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 36px;
+        text-align: center;
     }
 
     .lg-dis-block {
@@ -562,31 +568,30 @@ text-align: center;
         display: none;
     }
 
-    .section-4-heading{
-font-size: 31.97px;
-font-weight: 600;
-line-height: 43.93px;
-text-align: center;
-
+    .section-4-heading {
+        font-size: 31.97px;
+        font-weight: 600;
+        line-height: 43.93px;
+        text-align: center;
     }
-    .md-pb-0{
+
+    .md-pb-0 {
         padding-bottom: 0 !important;
     }
- .md-pt-40{
-    padding-top: 40px;
- }
 
-.size-change-md{
-font-family: Poppins;
-font-size: 12.15px !important;
-font-weight: 400 !important;
-line-height: 19.18px !important;
-text-align: center;
-
-
+    .md-pt-40 {
+        padding-top: 40px;
     }
-  
-    .size-change-logo{
+
+    .size-change-md {
+        font-family: Poppins;
+        font-size: 12.15px !important;
+        font-weight: 400 !important;
+        line-height: 19.18px !important;
+        text-align: center;
+    }
+
+    .size-change-logo {
         width: 53.38px;
     }
 
@@ -606,13 +611,15 @@ text-align: center;
         padding-top: 60px;
         padding-bottom: 52px;
     }
-  .md-pt-60-pb-60{
-    padding-bottom: 60px;
-    padding-top: 60px;
-  }
-  .btn-1{
-    padding: 6.5px 17px 6.5px 17px;
-  }
+
+    .md-pt-60-pb-60 {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    .btn-1 {
+        padding: 6.5px 17px 6.5px 17px;
+    }
 }
 
 @media (max-width: 460px) {
@@ -681,7 +688,8 @@ text-align: center;
     .xs-mt-180 {
         margin-top: 180px;
     }
-     .sm-gap-20 {
+
+    .sm-gap-20 {
         gap: 15px !important;
     }
 }
