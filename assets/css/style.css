@@ -433,7 +433,7 @@
 }
 
 @media (max-width: 1200px) {
-    .row-reverse {
+    .col-reverse {
         flex-direction: column-reverse !important;
         display: flex !important;
     }
